@@ -1,0 +1,55 @@
+.tinycolorpicker
+{
+	width:          35px;
+	height:         35px;
+	position: relative;
+	overflow: hidden;
+}
+
+.tinycolorpicker .track {
+	background-color:     #EFEFEF;
+	padding:        10px;
+	position:       absolute;
+	cursor:         crosshair;
+	display:        none;
+	border:         1px solid #ccc;
+	z-index:        10;
+}
+
+.tinycolorpicker .color {
+	width:          29px;
+	height:         29px;
+	border:         1px solid #ccc;
+	display:        block;
+	position:       relative;
+	z-index:        11;
+	background-color: #EFEFEF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.tinycolorpicker .colorInner {
+	width:          27px;
+	height:         27px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.tinycolorpicker .dropdown {
+	list-style: none;
+	display: none;
+	width: 27px;
+	position: absolute;
+	top: 28px;
+	border: 1px solid #ccc;
+	left: 0;
+	z-index: 1000;
+}
+
+.tinycolorpicker .dropdown li {
+	height: 25px;
+	cursor: pointer;
+}
