@@ -1,0 +1,43 @@
+{
+  "name": "tinycolorpicker",
+  "title": "Tiny Colorpicker fork",
+  "version": "0.0.7",
+  "description": "A lightweight cross browser jQuery based colorpicker.",
+  "homepage": "http://www.baijs.com/tinycolorpicker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptica/tinycolorpicker.git"
+  },
+  "keywords": [
+    "UI",
+    "jQuery",
+    "Mobile",
+    "colors",
+    "colorpicker",
+    "javascript"
+  ],
+  "author": {
+    "name": "Maarten Baijs",
+    "email": "wieringen@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/wieringen/tinycolorpicker/blob/master/MIT-LICENSE.txt"
+    }
+  ],
+  "bugs": "https://github.com/ptica/tinycolorpicker/issues",
+  "dependencies": {
+    "jquery": ">=1.5"
+  },
+  "main": [
+    "lib/jquery.tinycolorpicker.js",
+	"lib/jquery.tinycolorpicker.css"
+],
+"ignore": [
+	"/docs",
+	"/dist",
+	"/node_modules",
+	"/examples"
+  ]
+}
