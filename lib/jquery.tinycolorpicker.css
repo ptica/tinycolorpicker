@@ -28,6 +28,7 @@
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	cursor: pointer;
+	float: left;
 }
 
 .tinycolorpicker .colorInner {
@@ -36,6 +37,13 @@
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
+}
+
+.tinycolorpicker .remover {
+	float: left;
+	cursor: pointer;
+	margin-left: 12px;
+	line-height: 29px;
 }
 
 .tinycolorpicker .dropdown {
