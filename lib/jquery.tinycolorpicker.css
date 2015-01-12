@@ -3,7 +3,7 @@
 	width:          35px;
 	height:         35px;
 	position: relative;
-	overflow: hidden;
+	/*overflow: hidden; */ /* this one hides the picker for me in chrome */
 }
 
 .tinycolorpicker .track {
